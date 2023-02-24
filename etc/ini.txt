@@ -1,0 +1,58 @@
+#************************************************************
+# Source Database parameter
+# DB2
+# SourceDB_JDBCDriverClassName=com.ibm.db2.jcc.DB2Driver
+# SourceDB_DBurl=jdbc:db2://hostName:port/
+# GridScale
+# SourceDB_JDBCDriverClassName=xkoto.gridscale.sql.Driver
+# SourceDB_DBurl=jdbc:xkoto://hostName1:port1,hostName2:port2/
+#************************************************************
+
+SourceDB_JDBCDriverClassName=com.ibm.db2.jcc.DB2Driver
+SourceDB_DBurl=jdbc:db2://10.10.14.15:50000/
+SourceDB_DatabaseName=AURA8
+SourceDB_loginUserName=K1ukErckiTP82IytQKbX7A==
+SourceDB_loginPassword=cxPDBcE8mdf82IytQKbX7A==
+
+#************************************************************
+# Destination Database parameter
+# DB2
+# DestDB_JDBCDriverClassName=com.ibm.db2.jcc.DB2Driver
+# DestDB_DBurl=jdbc:db2://hostName:port/
+# GridScale
+# DestDB_JDBCDriverClassName=xkoto.gridscale.sql.Driver
+# DestDB_DBurl=jdbc:xkoto://hostName1:port1,hostName2:port2/
+#************************************************************
+
+DestDB_JDBCDriverClassName=com.ibm.db2.jcc.DB2Driver
+DestDB_DBurl=jdbc:db2://10.10.14.15:50000/
+DestDB_DatabaseName=AURA8
+DestDB_loginUserName=K1ukErckiTP82IytQKbX7A==
+DestDB_loginPassword=cxPDBcE8mdf82IytQKbX7A==
+
+#************************************************************
+#Source dispatcher ID
+#***********************************************************
+SourceDispId=020
+
+#************************************************************
+#Source shift ID
+#***********************************************************
+SourceShiftId=1
+
+#*************************************************************
+#Destination dispatcher ID list
+#Dispatcher id is seperated by ","
+#*************************************************************
+DestDispIdList=005
+
+#************************************************************
+# Destination shift ID
+#***********************************************************
+DestShiftId=1
+
+#************************************************************
+# Convert phone number to 1 + 10-digit standard number
+# using the PBX 1 dial plan defined in database
+#***********************************************************
+ConvertPhoneNumber=false

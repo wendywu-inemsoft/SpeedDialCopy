@@ -1,0 +1,10 @@
+set HOME=%CD:~0,2%%CD:~2,-4%
+set LIBPATH=%HOME%\LIB
+set LOGJARS=%LIBPATH%\log4j-1.2.15.jar;%LIBPATH%\datedFileAppender-1.0.2.jar
+set DBJARS=%LIBPATH%\db2jcc4.jar
+set GRIDSCALEJDBCJARS=%LIBPATH%\xkotojdbc.jar
+set CLASSPATH=%LOGJARS%;%JTAPIJARS%;%GRIDSCALEJDBCJARS%;%HOME%\etc;%DBJARS%;%HOME%\classes
+
+set JAVAPATH=C:\jre1.8.0_191\bin
+set JAVACPATH=C:\jdk1.8.0_191\bin
+set PATH=%JAVAPATH%;%JAVACPATH%

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/datedFileAppender-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc_javax.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/xkotojdbc.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
